@@ -17,7 +17,7 @@ const MainDashboard: React.FC = () => {
 
       {/* Table */}
       <Table />
-
+      
     </>
   );
 };
