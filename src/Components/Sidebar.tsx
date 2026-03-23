@@ -1,7 +1,11 @@
 import React from "react";
 import "./Components.css";
 import { NavLink } from "react-router-dom";
+<<<<<<< HEAD
 import { routes } from "../Routes/route"; 
+=======
+import { routes } from "../Routes/route.tsx";
+>>>>>>> fa3f698508e17840a456dbac5821e0778f7ad254
 
 interface SidebarProps {
   open: boolean;

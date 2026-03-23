@@ -1,9 +1,11 @@
 import React from "react";
+// import React, { useEffect, useState } from "react";
 import Card from "../Components/Card";
 import Table from "../Components/Table";
 import "./Dashboard.css";
 
 const MainDashboard: React.FC = () => {
+<<<<<<< HEAD
     const users = [
     { name: "John Doe", email: "john@example.com", status: "Active" },
     { name: "Jane Smith", email: "jane@example.com", status: "Inactive" },
@@ -19,6 +21,37 @@ const MainDashboard: React.FC = () => {
     { name: "Peter Parker", email: "peter@example.com", status: "Inactive" },
   ];
 
+=======
+
+  // const [users, setUsers] = useState([]);
+
+  // useEffect(() => {
+  //   const fetchUsers = async () => {
+  //     try {
+  //       const res = await fetch("http://localhost:5000/api/v1/auth/getAllUsers", {
+  //         method: "GET",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //           Authorization: "Bearer YOUR_TOKEN_HERE",
+  //         },
+  //       });
+
+  //       const data = await res.json();
+
+  //       if (data.success) {
+  //         console.log(".................................",data.data);
+  //         setUsers(data.data);
+  //       }
+  //     } catch (error) {
+  //       console.error("Error fetching users:", error);
+  //     }
+  //   };
+
+  //   fetchUsers();
+  // }, []);
+
+    
+>>>>>>> fa3f698508e17840a456dbac5821e0778f7ad254
   return (
     <>
       
